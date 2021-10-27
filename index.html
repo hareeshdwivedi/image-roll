@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+    
+.text{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    position: absolute;
+    top: 443px;
+    left: 512px;
+}
+.text span{
+    color: red;
+}
+.rotate{
+    display: block;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+.span{
+    display: flex;
+    margin: 14px;
+    justify-content: space-around;
+}
+small{
+    color: black;
+    font-size: 2.2rem;
+}
+img{
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+    width: 200px;
+    height: 200px;cursor: pointer;
+}
+
+img:hover {
+      cursor: pointer;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+</style>
+<body style=" background-color: black;">
+    
+    <div class="container">
+        <div class="span">
+            <a href="1.html">
+                <img  class ="rotate" src="1.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="span">
+            <a href="1.html">
+                <img   class ="rotate" src="2.jpg" alt="">
+            </a>
+        
+            <a href="1.html">
+                <img  class ="rotate"src="3.jpg" alt="">
+            </a>
+        </div>
+    </div>
+
+    <div class="text">
+        Welcome To Ear <span>Boat</span>
+    </div>
+
+        
+
+</body>
+</html>
